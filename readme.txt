@@ -4,3 +4,5 @@
 
 11/01/2023: Maior dificuldade foi colocar o espassamento de 100px encima do cartão.
 E centralizar o cartão com o rodapé.
+
+14/01/2023: Importei o trailer do youtube:"Berserk: The Arg Arc" para o cartão;
