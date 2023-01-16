@@ -6,3 +6,5 @@
 E centralizar o cartão com o rodapé.
 
 14/01/2023: Importei o trailer do youtube:"Berserk: The Arg Arc" para o cartão;
+
+16/01/2023: Editei o botão do cartão e editei os textos

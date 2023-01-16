@@ -5,14 +5,7 @@
     padding: 0;
 }
 body {
-    height: 100vh;
-    width: 100vw;
-
     background-color: black;
-    background-image: url(assest/img/berserk-background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
 }
 
 section {
@@ -23,18 +16,17 @@ section {
 }
 
 .cartao {
-    background-color: rgba(128, 128, 128, 0.192);
-  
-    background-size: cover;
-    background-position: top center;
+    background-color: rgb(24, 24, 24);
 
     width: 280px;
     height: 480px;
     border: 3px solid rgb(255, 255, 255);
 
-    margin-top: 100px;
+    margin-top: 80px;
+
     padding: 10px;
-    
+
+    box-shadow: 3px 4px 6px rgba(255, 0, 0, 0.247);
 }
 
 p, h1, h2 {
@@ -60,7 +52,7 @@ div.video > iframe {
 }
 
 .cartao .informacoes {
-    background-color: rgba(255, 0, 0, 0.521);
+    background-color: rgba(0, 0, 0, 0.336);
 
     height: 75px;
     border-radius: 5px;
@@ -76,19 +68,35 @@ div.video > iframe {
 }
 
 button#assistir {
+    width: 100%;
     margin-top: 8px;
+    padding: 5px;
 
-    padding-right: 231px;
+    font-size: 1.1em;
+}
+#assistir > a {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+#assistir > a:hover {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
 }
 
 .cartao .descricao {
-    background-color: rgba(255, 0, 0, 0.527);
+    /* background-color: rgba(255, 0, 0, 0.527); */
 
     margin-top: 8px;
     height: 130px;
+
+    text-align: justify;
+
 }
 
 footer {
+    margin-top: 30px;
     text-align: center;
     text-justify: justify;
 }
