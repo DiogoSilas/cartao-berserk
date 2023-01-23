@@ -4,68 +4,61 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     background-color: rgb(255, 255, 255);
+    color: white;
 }
-
 section {
     display: block;
-
     justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin: auto;
 }
 
+/*Caixa do Cartão*/
 .cartao {
     background-color: rgb(24, 24, 24);
-
+    border: 3px solid rgb(231, 155, 13);
+    box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.247);
     max-width: 280px;
     height: 480px;
-    border: 3px solid rgb(231, 155, 13);
-
     margin-top: 40px;
     padding: 10px;
-
-    box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.247);
 }
 
-p, h1, h2 {
-    color: white;
-}
-
+/*Trailer da animação*/
 div.video {
     background-color: rgb(0, 0, 0);
     margin: 0px;
     padding: 0px;
     padding-bottom: 79%;
-
-
     position: relative;
 }
 div.video > iframe {
     position: absolute;
-
     left: 4.9%;
-
     width: 90%;
     height: 100%;
 }
 
 .cartao .informacoes {
     background-color: rgba(0, 0, 0, 0.336);
-
-    height: 75px;
     border-radius: 5px;
-
+    height: 75px;
     margin-top: 8px;
-
     padding: 5px;
+    overflow: auto;
 }
 
-.cartao .informacoes > h1 {
+.cartao .informacoes h1 {
     display: block;
     text-align: justify;
 }
 
+
+/*Botão Para ir ao site oficial*/
 button#assistir {
     width: 100%;
     margin-top: 8px;
@@ -84,40 +77,32 @@ button#assistir {
     font-weight: bolder;
 }
 
+/*Sinopse da animação*/
 .cartao .descricao {
-    /* background-color: rgba(255, 0, 0, 0.527); */
-
     padding: 5px;
-
     margin-top: 8px;
     height: 105px;
-
     text-align: justify;
-
     overflow: auto;
 }
 
+/*Rodapé*/
 footer {
     margin: 20px;
     display: flex;
-
     text-align: center;
     text-justify: justify;
-
     align-items: center;
     justify-content: center;
-
     letter-spacing: 2px;
 }
-footer > p {
+footer p {
     color: black;
 }
 
 footer img {
     width: 30px;
     height: 30px;
-
     border-radius: 3px;
-
     margin-left: 7px;
 }
